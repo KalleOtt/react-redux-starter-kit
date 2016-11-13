@@ -3,6 +3,8 @@ import DuckImage from '../assets/Duck.jpg'
 import './HomeView.scss'
 import { Button, Chip } from 'react-toolbox'
 
+import MyTable from '../../../components/MyTable'
+
 export const HomeView = () => (
   <div>
     <h4>Welcome!</h4>
@@ -17,6 +19,8 @@ export const HomeView = () => (
     />
     <br/>
     <Chip>Test chip</Chip>
+    <br/>
+    <MyTable/>
   </div>
 )
 

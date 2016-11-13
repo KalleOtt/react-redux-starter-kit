@@ -1,0 +1,19 @@
+.table {
+
+  td {
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  tr:nth-child(odd) {
+    td {
+      background-color: lawngreen;
+    }
+  }
+  tr:nth-child(even) {
+    td {
+      background-color: deeppink;
+    }
+  }
+}
